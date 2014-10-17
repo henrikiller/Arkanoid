@@ -1,1 +1,6 @@
 C:\Users\Luiz.Santos\Desktop\JogoJamv\Arkanoid\Arkanoid\Arkanoid\bin\Debug\Arkanoid.exe.config
+C:\Users\JeanTozzi\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Arkanoid\bin\Debug\Arkanoid.exe.config
+C:\Users\JeanTozzi\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csprojResolveAssemblyReference.cache
+C:\Users\JeanTozzi\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Game.resources
+C:\Users\JeanTozzi\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Properties.Resources.resources
+C:\Users\JeanTozzi\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.GenerateResource.Cache

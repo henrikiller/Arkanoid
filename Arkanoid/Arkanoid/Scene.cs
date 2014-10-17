@@ -11,7 +11,7 @@ namespace Arkanoid
     {
         protected abstract void Draw(Graphics g);
         public abstract void Update();
-        private abstract void KeyPressed(EventArgs e);
-        private abstract void KeyUnpressed(EventArgs e);
+        public abstract void KeyPressed(EventArgs e);
+        public abstract void KeyUnpressed(EventArgs e);
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Arkanoid
 {
-    class BloackManager
+    class BlockManager
     {
     }
 }

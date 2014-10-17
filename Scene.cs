@@ -9,9 +9,8 @@ namespace Arkanoid
 {
     abstract class Scene
     {
-        protected abstract void Draw(Graphics g);
-        public abstract void Update();
-        public abstract void KeyPressed(EventArgs e);
-        public abstract void KeyUnpressed(EventArgs e);
+        public abstract void Update() { }
+        public abstract void Draw(System.Drawing.Graphics g);
+        public abstract void KeyboardInputHandler(System.Windows.Forms.KeyEventArgs e, bool keyDown);
     }
 }

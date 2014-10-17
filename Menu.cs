@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Collections.Generic;
 
 namespace Arkanoid
 {
@@ -13,10 +14,15 @@ namespace Arkanoid
 
         public override void Draw(Graphics g) { g.DrawImage(this.background, new Point(0, 0)); }
 
-        public override void GetKeyPressed(System.Windows.Forms.KeyEventArgs e){
-            if (e.KeyCode.Equals(System.Windows.Forms.Keys.Return)) SceneManager.GetInstance().CurrScene = new Level();
-        }
+        public override void KeyboardInputHandler(System.Windows.Forms.KeyEventArgs e, bool keyDown)
+        {
+            if (keyDown && e.KeyValue.Equals(13))
+            {
+                Dictionary<string, string> d = new Dictionary<string, string>();
+                d.Add("sID", ((int)Http.Services.GET_HIGHSCORE).ToString());
 
-        public override void GetKeyUnpressed(System.Windows.Forms.KeyEventArgs e) { }
+                SceneMaganer.GetInstance().CurrScene = new Load(d);
+            }
+        }
     }
 }

@@ -9,8 +9,8 @@ namespace Arkanoid
 {
     abstract class Scene
     {
-        private abstract void Draw(Graphics g);
-        private abstract void Update();
+        protected abstract void Draw(Graphics g);
+        public abstract void Update();
         private abstract void KeyPressed(EventArgs e);
         private abstract void KeyUnpressed(EventArgs e);
     }
